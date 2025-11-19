@@ -1,0 +1,142 @@
+{
+  "placeholderImages": [
+    {
+      "id": "hero-delivery",
+      "description": "A delivery person on a scooter.",
+      "imageUrl": "https://images.unsplash.com/photo-1759200285180-7b400c74184a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8ZGVsaXZlcnklMjBzY29vdGVyfGVufDB8fHx8MTc2MjcxNDIzN3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "delivery scooter"
+    },
+    {
+      "id": "hero-payment",
+      "description": "Person paying with cash.",
+      "imageUrl": "https://images.unsplash.com/photo-1635840418906-d475bfb96a84?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxjYXNoJTIwcGF5bWVudHxlbnwwfHx8fDE3NjI3MTQyMzd8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "cash payment"
+    },
+    {
+      "id": "cat-mobiles",
+      "description": "A collection of modern smartphones.",
+      "imageUrl": "https://images.unsplash.com/photo-1621330396167-b3d451b9b83b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxzbWFydHBob25lc3xlbnwwfHx8fDE3NjI2MTcxMzd8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "smartphones"
+    },
+    {
+      "id": "cat-earbuds",
+      "description": "Wireless earbuds in a case.",
+      "imageUrl": "https://images.unsplash.com/photo-1590658006821-04f4008d5717?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHx3aXJlbGVzcyUyMGVhcmJ1ZHN8ZW58MHx8fHwxNzYyNjQ4NzY1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "wireless earbuds"
+    },
+    {
+      "id": "cat-smartwatches",
+      "description": "A stylish smartwatch on a wrist.",
+      "imageUrl": "https://images.unsplash.com/photo-1579586337278-3befd40fd17a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxzbWFydHdhdGNofGVufDB8fHx8MTc2MjY4MjIzOXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "smartwatch"
+    },
+    {
+      "id": "cat-powerbanks",
+      "description": "A portable power bank charging a phone.",
+      "imageUrl": "https://images.unsplash.com/photo-1596207891316-23851be3cc20?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxwb3dlciUyMGJhbmt8ZW58MHx8fHwxNzYyNzA2NzgyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "power bank"
+    },
+    {
+      "id": "cat-chargers",
+      "description": "Various phone chargers and cables.",
+      "imageUrl": "https://images.unsplash.com/photo-1731616103600-3fe7ccdc5a59?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxwaG9uZSUyMGNoYXJnZXJzfGVufDB8fHx8MTc2MjcxNDIzN3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "phone chargers"
+    },
+    {
+      "id": "cat-accessories",
+      "description": "Assorted mobile phone accessories.",
+      "imageUrl": "https://images.unsplash.com/photo-1677145503755-5a8c581671fe?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxwaG9uZSUyMGFjY2Vzc29yaWVzfGVufDB8fHx8MTc2MjcxNDIzN3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "phone accessories"
+    },
+    {
+      "id": "cat-tablets",
+      "description": "A person using a tablet computer.",
+      "imageUrl": "https://images.unsplash.com/photo-1661595676903-ef93e28bb121?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHx0YWJsZXQlMjBjb21wdXRlcnxlbnwwfHx8fDE3NjI3MTQyMzd8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "tablet computer"
+    },
+    {
+      "id": "cat-laptops",
+      "description": "A modern laptop on a desk.",
+      "imageUrl": "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxsYXB0b3B8ZW58MHx8fHwxNzYyNjkyNzI1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "laptop"
+    },
+    {
+      "id": "cat-trimmers",
+      "description": "An electric hair trimmer and shaver.",
+      "imageUrl": "https://images.unsplash.com/photo-1637503434402-0491c896566b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxlbGVjdHJpYyUyMHNoYXZlcnxlbnwwfHx8fDE3NjI3MTQyMzd8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "electric shaver"
+    },
+    {
+      "id": "cat-speakers",
+      "description": "A portable bluetooth speaker.",
+      "imageUrl": "https://images.unsplash.com/photo-1547052178-7f2c5a20c332?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxibHVldG9vdGglMjBzcGVha2VyfGVufDB8fHx8MTc2MjYzMjA2OXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "bluetooth speaker"
+    },
+    {
+      "id": "cat-printers",
+      "description": "A compact office printer.",
+      "imageUrl": "https://images.unsplash.com/photo-1650094980833-7373de26feb6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxvZmZpY2UlMjBwcmludGVyfGVufDB8fHx8MTc2MjcxNDIzN3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "office printer"
+    },
+    {
+      "id": "subcat-iphone",
+      "description": "Apple iPhone logo.",
+      "imageUrl": "https://images.unsplash.com/photo-1662946834880-99adabd21f80?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxhcHBsZSUyMGxvZ298ZW58MHx8fHwxNzYyNTk1NjQyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "apple logo"
+    },
+    {
+      "id": "subcat-samsung",
+      "description": "Samsung logo.",
+      "imageUrl": "https://images.unsplash.com/photo-1591122947157-26bad3a117d2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxzYW1zdW5nJTIwbG9nb3xlbnwwfHx8fDE3NjI2MjM4Mzh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "samsung logo"
+    },
+    {
+      "id": "subcat-xiaomi",
+      "description": "Xiaomi logo.",
+      "imageUrl": "https://images.unsplash.com/photo-1662948100180-7bc43f6fcab3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHx4aWFvbWklMjBsb2dvfGVufDB8fHx8MTc2MjcxNDIzN3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "xiaomi logo"
+    },
+    {
+      "id": "prod-iphone-15",
+      "description": "An iPhone 15 Pro.",
+      "imageUrl": "https://images.unsplash.com/photo-1616410011236-7a42121dd981?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxpcGhvbmV8ZW58MHx8fHwxNzYyNzE0MjM3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "iphone"
+    },
+    {
+      "id": "prod-samsung-s23",
+      "description": "A Samsung Galaxy S23 Ultra.",
+      "imageUrl": "https://images.unsplash.com/photo-1691452194257-57e0f170c32e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxzYW1zdW5nJTIwcGhvbmV8ZW58MHx8fHwxNzYyNjg1MTg4fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "samsung phone"
+    },
+    {
+      "id": "prod-pixel-buds",
+      "description": "Google Pixel Buds Pro.",
+      "imageUrl": "https://images.unsplash.com/photo-1574920162043-b872873f19c8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxlYXJidWRzfGVufDB8fHx8MTc2MjYxMTgyM3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "earbuds"
+    },
+    {
+      "id": "prod-apple-watch",
+      "description": "An Apple Watch Series 9.",
+      "imageUrl": "https://images.unsplash.com/photo-1553545204-4f7d339aa06a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxzbWFydHdhdGNofGVufDB8fHx8MTc2MjY4MjIzOXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "smartwatch"
+    },
+    {
+      "id": "prod-anker-powerbank",
+      "description": "An Anker power bank.",
+      "imageUrl": "https://images.unsplash.com/photo-1614399113305-a127bb2ca893?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxwb3dlciUyMGJhbmt8ZW58MHx8fHwxNzYyNzA2NzgyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "power bank"
+    },
+    {
+      "id": "prod-macbook-air",
+      "description": "A Macbook Air laptop.",
+      "imageUrl": "https://images.unsplash.com/photo-1710905219584-8521769e3678?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxtYWNib29rJTIwYWlyfGVufDB8fHx8MTc2MjY4NjA0NXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "macbook air"
+    },
+    {
+      "id": "prod-xiaomi-note-12",
+      "description": "A Xiaomi Redmi Note 12 phone.",
+      "imageUrl": "https://images.unsplash.com/photo-1687989938889-f472d73347f3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHx4aWFvbWklMjBwaG9uZXxlbnwwfHx8fDE3NjM0MTE1MzR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "xiaomi phone"
+    }
+  ]
+}

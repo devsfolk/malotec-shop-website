@@ -1,0 +1,74 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 98%;
+    --foreground: 222 47% 11%;
+    --card: 0 0% 100%;
+    --card-foreground: 222 47% 11%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 222 47% 11%;
+    --primary: 81 88% 47%;
+    --primary-foreground: 81 90% 10%;
+    --secondary: 0 0% 95%;
+    --secondary-foreground: 222 47% 11%;
+    --muted: 0 0% 95%;
+    --muted-foreground: 222 47% 40%;
+    --accent: 24 98% 51%;
+    --accent-foreground: 24 90% 10%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 0 0% 90%;
+    --input: 0 0% 93%;
+    --ring: 81 88% 47%;
+    --radius: 0.5rem;
+  }
+
+  .dark {
+    --background: 222 47% 5%;
+    --foreground: 0 0% 98%;
+    --card: 222 47% 8%;
+    --card-foreground: 0 0% 98%;
+    --popover: 222 47% 5%;
+    --popover-foreground: 0 0% 98%;
+    --primary: 81 88% 47%;
+    --primary-foreground: 81 90% 10%;
+    --secondary: 222 47% 15%;
+    --secondary-foreground: 0 0% 98%;
+    --muted: 222 47% 15%;
+    --muted-foreground: 0 0% 70%;
+    --accent: 24 98% 51%;
+    --accent-foreground: 24 90% 98%;
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 222 47% 15%;
+    --input: 222 47% 15%;
+    --ring: 81 88% 47%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+@layer utilities {
+  .glow-green {
+    animation: glow 1.5s infinite alternate;
+  }
+
+  @keyframes glow {
+    from {
+      box-shadow: 0 0 5px #a2f200, 0 0 10px #a2f200;
+    }
+    to {
+      box-shadow: 0 0 10px #a2f200, 0 0 20px #a2f200;
+    }
+  }
+}
