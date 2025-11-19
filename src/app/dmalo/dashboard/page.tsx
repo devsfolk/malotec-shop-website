@@ -1,13 +1,13 @@
+'use client';
+
+import { useRouter } from 'next/navigation';
 import { Card, CardHeader, CardTitle, CardDescription, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { getAllProducts, getCategories } from "@/lib/mock-data";
 
-type DashboardPageProps = {
-    onNavigate: (view: 'products' | 'categories') => void;
-};
 
-
-export default function DashboardPage({ onNavigate }: DashboardPageProps) {
+export default function DashboardPage() {
+    const router = useRouter();
     const products = getAllProducts();
     const categories = getCategories(null);
 
@@ -33,7 +33,7 @@ export default function DashboardPage({ onNavigate }: DashboardPageProps) {
                     <CardDescription>Products</CardDescription>
                 </CardHeader>
                 <CardContent>
-                    <Button size="sm" onClick={() => onNavigate('products')}>
+                    <Button size="sm" onClick={() => router.push('/dmalo/dashboard/products')}>
                         Manage Products
                     </Button>
                 </CardContent>
@@ -44,7 +44,7 @@ export default function DashboardPage({ onNavigate }: DashboardPageProps) {
                     <CardDescription>Categories</CardDescription>
                 </CardHeader>
                 <CardContent>
-                    <Button size="sm" onClick={() => onNavigate('categories')}>
+                    <Button size="sm" onClick={() => router.push('/dmalo/dashboard/categories')}>
                         Manage Categories
                     </Button>
                 </CardContent>

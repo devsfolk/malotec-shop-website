@@ -47,19 +47,19 @@ export default function DashboardLayout() {
   const renderView = () => {
     switch (view.name) {
       case 'dashboard':
-        return <DashboardPage onNavigate={handleNavClick} />;
+        return <DashboardPage />;
       case 'products':
         if (view.id) {
-          return <EditProductPage params={{ id: view.id }} onBack={() => handleNavClick('products')} />;
+          return <EditProductPage params={{ id: view.id }} />;
         }
-        return <AdminProductsPage onEdit={(id) => handleEditClick('products', id)} onAdd={() => handleEditClick('products', 'new')} />;
+        return <AdminProductsPage />;
       case 'categories':
         if (view.id) {
-          return <EditCategoryPage params={{ id: view.id }} onBack={() => handleNavClick('categories')} />;
+          return <EditCategoryPage params={{ id: view.id }} />;
         }
-        return <AdminCategoriesPage onEdit={(id) => handleEditClick('categories', id)} onAdd={() => handleEditClick('categories', 'new')} />;
+        return <AdminCategoriesPage />;
       default:
-        return <DashboardPage onNavigate={handleNavClick} />;
+        return <DashboardPage />;
     }
   }
   

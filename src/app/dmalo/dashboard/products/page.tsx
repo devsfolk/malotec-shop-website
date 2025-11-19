@@ -1,18 +1,23 @@
 
+import { useRouter } from 'next/navigation';
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { getAllProducts } from "@/lib/mock-data";
 import { AdminProductList } from "@/components/admin/admin-product-list";
 import { PlusCircle } from "lucide-react";
 
-type AdminProductsPageProps = {
-    onEdit: (id: string) => void;
-    onAdd: () => void;
-};
 
-
-export default function AdminProductsPage({ onEdit, onAdd }: AdminProductsPageProps) {
+export default function AdminProductsPage() {
+    const router = useRouter();
     const products = getAllProducts();
+    
+    const handleAdd = () => {
+        router.push('/dmalo/dashboard/products/new');
+    };
+
+    const handleEdit = (id: string) => {
+        router.push(`/dmalo/dashboard/products/${id}`);
+    };
     
   return (
     <Card>
@@ -24,14 +29,14 @@ export default function AdminProductsPage({ onEdit, onAdd }: AdminProductsPagePr
                 Manage your products here. Add, edit, or remove them.
                 </CardDescription>
             </div>
-            <Button onClick={onAdd}>
+            <Button onClick={handleAdd}>
                 <PlusCircle className="mr-2 h-4 w-4" />
                 Add Product
             </Button>
         </div>
       </CardHeader>
       <CardContent>
-        <AdminProductList products={products} onEdit={onEdit} />
+        <AdminProductList products={products} onEdit={handleEdit} />
       </CardContent>
     </Card>
   );
